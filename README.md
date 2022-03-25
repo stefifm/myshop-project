@@ -9,7 +9,7 @@ MyShop is a project of ecommerce using MongoDB, Express, React and Node JS. Proj
 ## Overlay Navbar
 ![2022-03-24 20_13_13-MYSHOP - Brave](https://user-images.githubusercontent.com/64149462/160125153-893ad0e4-14bb-4b60-8401-677eef00fbf9.jpg)
 
-##Login and Register
+## Login and Register
 ![2022-03-24 20_13_27-USUARIO -- MYSHOP - Brave](https://user-images.githubusercontent.com/64149462/160125155-7d42a5cc-d576-4fb2-924e-98de5a374fba.jpg)
 
 ![2022-03-24 20_19_39-USUARIO -- MYSHOP - Brave](https://user-images.githubusercontent.com/64149462/160125175-919a753c-bb2e-4fa4-b047-3380e9dddf68.jpg)
