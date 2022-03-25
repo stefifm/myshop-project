@@ -1,0 +1,11 @@
+# folders
+/client/node_modules
+/server/node_modules
+
+# enviroment variables
+/client/.env
+/server/.env
+
+# readmes react
+/client/README.md
+

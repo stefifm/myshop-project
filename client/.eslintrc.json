@@ -1,0 +1,65 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "quotes": "warn",
+        "react/jsx-no-useless-fragment": "off",
+        "react/button-has-type": "off",
+        "consistent-return":"off",
+        "semi": "warn",
+        "linebreak-style": "off",
+        "no-unused-vars": "warn",
+        "indent": [2, 2, {"SwitchCase": 1}],
+        "react/function-component-definition": "off",
+        "no-console": "off",
+        "import/prefer-default-export": "off",
+        "no-underscore-dangle": [
+          "error",
+          {
+            "allow": ["_d", "_dh", "_h", "_id", "_m", "_n", "_t", "_text"]
+          }
+        ],
+        "import/order": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/prop-types": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "max-len": [2, 250],
+        "no-use-before-define": [
+          "error",
+          { "functions": false, "classes": false, "variables": false }
+        ],
+        "default-param-last": "off",
+        "comma-dangle": ["warn", "never"],
+        "no-empty": "warn",
+        "implicit-arrow-linebreak": "off",
+        "object-curly-newline": "off",
+        "no-confusing-arrow": "off",
+        "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+        "react/jsx-curly-newline": "off",
+        "function-paren-newline": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/no-unstable-nested-components": "off",
+        "operator-linebreak": "off",
+        "arrow-body-style": "off",
+        "react/jsx-props-no-spreading": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "react/no-array-index-key": "off"
+    }
+}

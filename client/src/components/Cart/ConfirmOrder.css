@@ -1,0 +1,207 @@
+.confirmOrderPage {
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+}
+
+.confirmOrderPage>div:last-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.confirmShippingArea {
+    padding: 5vmax;
+    padding-bottom: 0%;
+}
+
+.confirmShippingArea>p {
+    font: 400 1.8vmax 'Roboto';
+}
+
+.confirmShippingAreaBox,
+.confirmCartItemsConatiner {
+    margin: 2vmax;
+}
+
+.confirmShippingAreaBox>div {
+    display: flex;
+    margin: 1vmax 0;
+}
+
+.confirmShippingAreaBox>div>p {
+    font: 400 1vmax 'Roboto';
+    color: black;
+}
+
+.confirmShippingAreaBox>div>span {
+    color: #656565;
+    font: 300 1vmax 'Roboto';
+    margin: 0 1vmax;
+}
+
+.confirmCartItems>p {
+    font: 400 1.8vmax 'Roboto';
+}
+
+.confirmCartItems {
+    padding: 5vmax;
+    padding-top: 2vmax;
+}
+
+.confirmCartItemsConatiner {
+    max-height: 20vmax;
+    overflow-y: auto;
+}
+
+.confirmCartItemsConatiner>div {
+    font: 400 1vmax 'Roboto';
+    display: flex;
+    justify-content: space-between;
+    margin: 2vmax 0;
+    align-items: center;
+}
+
+.confirmCartItemsConatiner>div>img {
+    width: 3vmax;
+
+}
+
+.confirmCartItemsConatiner>div>a {
+    width: 60%;
+    color: #656565;
+    margin: 0 2vmax;
+    text-decoration: none;
+}
+
+.confirmCartItemsConatiner>div>span {
+    font: 300 1vmax 'Roboto';
+    color: #5e5e5e;
+}
+
+.orderSummary {
+    padding: 7vmax;
+}
+
+.orderSummary>p {
+    text-align: center;
+    font: 400 1.8vmax 'Roboto';
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    padding: 1vmax;
+}
+
+.orderSummary>div>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vmax 0;
+    font: 300 1vmax 'Roboto';
+}
+
+.orderSummary>div>div>span {
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.orderSummaryTotal {
+    padding: 2vmax 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.363);
+    display: flex;
+    font: 300 1vmax 'Roboto';
+    justify-content: space-between;
+}
+
+.orderSummary>button {
+    background-color: tomato;
+    font: 400 1vmax 'Roboto';
+    width: 100%;
+    transition: all 0.5s;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    padding: 1vmax;
+}
+
+.orderSummary>button:hover {
+    background-color: rgba(192, 71, 50);
+}
+
+@media screen and (max-width: 600px) {
+    .confirmOrderPage {
+        grid-template-columns: 1fr;
+        height: unset;
+    }
+
+    .confirmOrderPage>div:last-child {
+        border-left: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.247);
+    }
+
+    .confirmShippingArea>p {
+        font: 400 6vw 'Roboto';
+    }
+
+    .confirmShippingAreaBox>div {
+        display: flex;
+        margin: 6vw 0;
+    }
+
+    .confirmShippingAreaBox>div>p {
+        font: 400 4vw 'Roboto';
+    }
+
+    .confirmShippingAreaBox>div>span {
+        font: 300 4vw 'Roboto';
+    }
+
+    .confirmCartItems>p {
+        font: 400 6vw 'Roboto';
+    }
+
+    .confirmCartItemsConatiner {
+        max-height: 50vw;
+    }
+
+    .confirmCartItemsConatiner>div {
+        font: 400 4vw 'Roboto';
+        margin: 4vw 0;
+    }
+
+    .confirmCartItemsConatiner>div>img {
+        width: 10vw;
+    }
+
+    .confirmCartItemsConatiner>div>a {
+        margin: 0;
+        width: 30%;
+    }
+
+    .confirmCartItemsConatiner>div>span {
+        font: 300 4vw 'Roboto';
+    }
+
+    .orderSummary {
+        padding: 12vw;
+    }
+
+    .orderSummary>p {
+        font: 400 6vw 'Roboto';
+        padding: 4vw;
+    }
+
+    .orderSummary>div>div {
+        font: 300 4vw 'Roboto';
+    }
+
+    .orderSummaryTotal {
+        font: 300 4vw 'Roboto';
+        padding: 5vw 0;
+    }
+
+    .orderSummary>button {
+        padding: 4vw;
+        margin: 4vw auto;
+        font: 400 4vw 'Roboto';
+    }
+}
